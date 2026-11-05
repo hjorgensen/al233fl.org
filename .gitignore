@@ -1,0 +1,11 @@
+# Local OS and temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+.aws/
