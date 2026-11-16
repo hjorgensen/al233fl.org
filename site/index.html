@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="icon" type="image/png" href="index_html_files/american-legion.png">
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
  <meta name="Generator" content="Xara HTML filter v.10.0.8.50">
@@ -18,13 +19,33 @@
  <script async src="index_html_files/replaceMobileFonts.js"></script>
  <style>
   #xr_xr {top:0px;}
+    .home-content {position:absolute; left:0; top:620px; width:100%; height:0;}
+    .home-calendar {position:absolute; left:50%; top:379px; transform:translateX(-50%); width:min(800px, calc(100vw - 32px)); height:600px; box-sizing:border-box; border:solid 1px #777;}
  </style>
 </head>
 <body class="xr_bgb5">
-<div class="xr_ap" id="xr_xr" style="width: 1169px; height: 3740px; left:50%; margin-left: -585px; text-align: left; top:0px;">
+<div class="xr_ap" id="xr_xr" style="width: 1169px; height: 4360px; left:50%; margin-left: -585px; text-align: left; top:0px;">
  <script>var xr_xr=document.getElementById("xr_xr")</script>
 <div id="xr_td" class="xr_td">
-<div class="xr_ap xr_xri_" style="width: 1169px; height: 3740px;">
+<div class="xr_ap xr_xri_" style="width: 1169px; height: 4360px;">
+<iframe class="home-calendar" title="American Legion Post 233 events calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FNew_York&amp;showPrint=0&amp;src=YWwyMzNmbEBnbWFpbC5jb20&amp;color=%23b39ddb&amp;mode=MONTH" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<script>
+ (() => {
+  const calendar = document.querySelector('.home-calendar');
+  const mobileView = window.matchMedia('(max-width: 767px)');
+  function updateCalendarView() {
+   const calendarUrl = new URL(calendar.src);
+   const mode = mobileView.matches ? 'AGENDA' : 'MONTH';
+   if (calendarUrl.searchParams.get('mode') !== mode) {
+    calendarUrl.searchParams.set('mode', mode);
+    calendar.src = calendarUrl.toString();
+   }
+  }
+  updateCalendarView();
+  mobileView.addEventListener('change', updateCalendarView);
+ })();
+</script>
+<div class="home-content">
 <div class="xr_group">
  <div class="xr_txt xr_s82" style="position: absolute; left:78px; top:987px; width:1002px; height:10px;">
   <span class="xr_tl xr_s83" style="left: 0px; top: 32.49px;"><span class="xr_s83" style="width:972.88px;display:inline-block;transform-origin: 0% 0%;transform: scaleX(0.818);">With over 2.5 million members and almost 14,000 community posts, The American Legion is truly a grassroots organization, guided by </span></span>
@@ -141,6 +162,7 @@
   <span class="xr_tl xr_s93" style="left: 0px; top: -14.83px;">2026-2027 Post Leadership</span>
  </div>
  <img class="xr_rn_ xr_ap" src="index_html_files/145.webp" alt="" title="" style="left:349px;top:2474px;width:500px;height:375px;"/>
+</div>
 <div class="xr_xpos" style="position:absolute; left: 50px; top: 315px; width:1110px; height:44px;">
 <div id="xr_nb21" class="xr_ar">
  <div class="xr_ar xr_nb0">
@@ -401,6 +423,7 @@
  </div>
 </div>
 </div>
+<div class="home-content">
  <a href="https://www.al233fl.org/bunker.html" class="xr_atsh" onclick="return(xr_nn());">
   <img class="xr_rn_ xr_ap" src="index_html_files/146.webp" alt="" title="" onmousemove="xr_mo(this,0,event)" style="left:403px;top:2971px;width:367px;height:256px;"/>
  </a>
@@ -410,6 +433,7 @@
  <div class="xr_txt xr_s97" style="position: absolute; left:812px; top:3584px; width:324px; height:10px;">
   <span class="xr_tc xr_s97" style="left: -178.79px; top: -16.64px; width: 358px;">and YES, it’s now air conditioned too!</span>
  </div>
+</div>
 <div class="xr_group">
  <img class="xr_rn_ xr_ap" src="index_html_files/6601.webp" alt="" title="" style="left:49px;top:7px;width:1120px;height:285px;"/>
 </div>
@@ -417,6 +441,7 @@
 <div class="xr_group">
  <img class="xr_rn_ xr_ap" src="index_html_files/11.webp" alt="" title="" style="left:938px;top:63px;width:161px;height:151px;"/>
 </div>
+<div class="home-content">
  <img class="xr_rn_ xr_ap" src="index_html_files/147.webp" alt="" title="" style="left:549px;top:3280px;width:550px;height:278px;"/>
  <img class="xr_rn_ xr_ap" src="index_html_files/148.webp" alt="REMODELED" title="" style="left:650px;top:3297px;width:376px;height:92px;"/>
  <span class="xr_ar" style="left:211px;top:1808px;width:702px;height:112px; background-color: #7F4100; border: 1px solid #000000; border-radius: 16px;"></span>
@@ -445,9 +470,11 @@
  <div class="xr_txt xr_s82" style="position: absolute; left:918px; top:1587px; width:91px; height:10px;">
   <span class="xr_tc Normal_Text_a xr_s96 xr_bold" style="left: 26.56px; top: -16.2px; width: 38px;"><a href="https://al233fl.org/ala/ALA_Membership_Application.pdf" class="xr_atsh" onclick="return(xr_nn());" onmousemove="xr_mo(this,0)" ><span class="Normal_Text_a xr_s96 xr_bold" style="text-decoration:underline;">JOIN</span></a></span>
  </div>
+</div>
 <div class="xr_group">
  <img class="xr_ap" src="index_html_files/7354.webp" alt="" title="" style="left:407px;top:47px;width:450px;height:167px;"/>
 </div>
+<div class="home-content">
 <div class="xr_group">
  <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#119;&#101;&#98;&#109;&#97;&#115;&#116;&#101;&#114;&#64;&#97;&#108;&#50;&#51;&#51;&#102;&#108;&#46;&#111;&#114;&#103;&#44;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#66;&#114;&#111;&#107;&#101;&#110;&#32;&#87;&#101;&#98;&#32;&#76;&#105;&#110;&#107;" class="xr_atsh" onclick="return(xr_nn());">
   <span class="xr_ar" onmousemove="xr_mo(this,0,event)" style="left:160px;top:3718px;width:443px;height:15px; overflow: visible;pointer-events: none;"><svg style="position:absolute; left:0; top:0; width:100%; height:100%; overflow:visible; viewBox: 0 0 443 15; pointer-events: none;" >  <path fill="#00FF03" stroke="Transparent" stroke-width="0" stroke-linejoin="round" stroke-linecap="round" d="M 0 0 L 443.06 0 L 443.06 15.19 L 0 15.19 L 0 0 Z" fill-rule="evenodd" pointer-events="visible" />
@@ -485,6 +512,7 @@
 </div>
 <div class="xr_group">
  <span class="xr_ar" style="left:137px;top:3608px;width:1000px;height:1px; background-color: #959595;"></span>
+</div>
 </div>
  <div id="xr_xd0"></div>
 </div>
